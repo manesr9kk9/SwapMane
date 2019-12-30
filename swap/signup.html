@@ -1,0 +1,72 @@
+<html>
+<head><title>signup</title>
+<h1 align="center">sign up</H1>
+</head>
+<body>
+<form action="submit.php" method="get" name="regipage" >
+<table border="1" align="center" >
+<tr>
+<td>user name</td>
+<td><input type="text" placeholder="enter user name" name="txtname"></td>
+</tr>
+<tr>
+<td>password</td>
+<td><input type="password" placeholder="enter password" name="password"></td>
+</tr>
+<td>confirm password</td>
+<td><input type="password" placeholder="enter password" name="password1"></td>
+</tr>
+<tr>
+<td>email</td>
+<td><input type="email" placeholder="enter email" name="txtemail"></td>
+</tr>
+
+<tr>
+<td>mobileno</td>
+<td><input type="number" placeholder="enter 10 digit no" name="mobile"></td>
+</tr>
+<tr>
+<td>date of birth</td>
+<td><input type="date" placeholder="enter dob" name="dateob"></td>
+</tr>
+<tr>
+<td>gender</td>
+<td><input type="radio"  name="rdogender" value="Female" >female
+<input type="radio" name="rdogender"  value="Male">male
+<input type="radio" name="rdogender"  value="Transgender">transgender
+</td>
+</tr>
+<tr>
+<td>education</td>
+<td><input type="checkbox" value="BE" name="chkedu[]"> BE 
+<input type="checkbox" value="ME" name="chkedu[]">  ME
+<input type="checkbox" value="HSC" name="chkedu[]"> HSC
+<input type="checkbox" value="PHD" name="chkedu[]">  PHD
+</td>
+</tr>
+<tr>
+<td nowrap>country</td>
+<td>
+<select name="selcountry">
+<option>india </option>
+<option> australia</option>
+<option>canada</option>
+<option>usa</option>
+</td>
+</tr>
+<tr>
+<td>profile</td>
+<td><input type="file" placeholder="choose image" name="profile"></td>
+</tr>			
+<tr>
+<td colspan="2" align="center">
+<input align="center" type="submit" value="submit" >
+<input align="center" type="reset" value="clear">
+</td>
+</tr>
+
+</form>
+
+</table>
+
+</body>
